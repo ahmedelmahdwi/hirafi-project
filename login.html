@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تسجيل الدخول - حرفي</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- شريط التنقل -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo"><i class="fas fa-tools"> </i> حرفي</a>
+            <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+            <label for="menu-toggle" class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </label>
+            <ul class="nav-links">
+                <li><a href="index.html">الرئيسية</a></li>
+                <li><a href="categories.html">الفئات</a></li>
+                <li><a href="login.html">تسجيل</a></li>
+                <li><a href="booking.html">حجز موعد</a></li>
+                <li><a href="register.html" class="btn-login active">انشاء حساب</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- مسار التنقل -->
+    <div class="breadcrumb">
+        <div class="container">
+            <div class="breadcrumb-links">
+                <a href="index.html">الرئيسية</a>
+                <span class="separator">/</span>
+                <span>تسجيل الدخول</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- قسم تسجيل الدخول -->
+    <section class="categories login-section">
+        <div class="container">
+            <div class="login-container">
+                <div class="login-box">
+                    <div class="login-header">
+                        <div class="login-icon">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <h2>تسجيل الدخول</h2>
+                        <p>سجل دخولك للوصول إلى حسابك</p>
+                    </div>
+                    
+                    <form class="login-form" action="index.html" method="get">
+                        <div class="form-group">
+                            <label for="email">البريد الإلكتروني</label>
+                            <div class="input-with-icon">
+                                <input type="email" id="email" name="email" required placeholder="أدخل بريدك الإلكتروني">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="password">كلمة المرور</label>
+                            <div class="input-with-icon">
+                                <input type="password" id="password" name="password" required placeholder="أدخل كلمة المرور">
+                                <i class="fas fa-lock"></i>
+                            </div>
+                        </div>
+                        
+                        <div class="login-options">
+                            <label class="remember-me">
+                                <input type="checkbox" name="remember">
+                                <span>تذكرني</span>
+                            </label>
+                            <a href="#" class="forgot-password">نسيت كلمة المرور؟</a>
+                        </div>
+                        
+                        <button type="submit" class="btn-primary login-submit-btn">
+                            تسجيل الدخول
+                        </button>
+                        
+                        <div class="register-link">
+                            <p>ليس لديك حساب؟ <a href="register.html">إنشاء حساب جديد</a></p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- التذييل -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>حرفي</h3>
+                    <p>منصة عربية تهدف إلى ربط المستخدمين مع المحترفين في مختلف المجالات</p>
+                </div>
+                <div class="footer-section">
+                    <h3>روابط سريعة</h3>
+                    <ul>
+                        <li><a href="index.html">الرئيسية</a></li>
+                        <li><a href="categories.html">الفئات</a></li>
+                        <li><a href="register.html">انشاء حساب</a></li>
+                        <li><a href="booking.html">حجز موعد</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>اتصل بنا</h3>
+                    <p><i class=" fa-envelope"></i> info@harfy.com</p>
+                    <p><i class=" fa-phone"></i> +218 94 632 5075</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>جميع الحقوق محفوظة &copy; 2025 حرفي</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
